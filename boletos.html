@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
-
     <header class="header">
         <div class="contenedor contenido-header">
             <h1>Rock & EDM Festival</h1>
@@ -31,36 +30,51 @@
             </nav>
         </div>
     </header>
-    <div class="video">
-        <div class="overlay">
-            <div class="contenedor contenido-video">
-                <h2>Rock & EDM Festival</h2>
-                <p>Julio 2022, Guadalajara, México.</p>
+<body>
+    <section id="boletos" class="boletos bg-verde">
+        <h3>Boletos</h3>
+
+        <div class="contenedor contenedor-boletos">
+            <div class="basico pase">
+                <p class="nombre-pase">Pase 1 Día</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y Bebida</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$100</p>
+                </footer>
+            </div>
+            <div class="premium pase">
+                <p class="nombre-pase">Pase 2 Días</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Comida y Bebida</li>
+                        <li>Camisa del Evento</li>
+                        <li>Acceso VIP</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$180</p>
+                </footer>
             </div>
         </div>
-        <video autoplay muted loop>
-            <source src="video/concierto.mp4" type="video/mp4">
-            <source src="video/concierto.ogg" type="video/ogg">
-            <source src="video/concierto.webm" type="video/webm">
-        </video>
-    </div>
-        <section class="contenedor sobre-festival">
-        <div class="imagen">
-            <picture>
-                <source srcset="build/img/imagen_vocalista.avif" type="image/avif">
-                <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
-                <img loading="lazy" width="200" height="300" src="build/img/imagen_vocalista.jpg" alt="imagen vocalista">
-            </picture>
-        </div>
-        <div class="contenido-festival">
-            <h2>Rock & EDM Festival</h2>
-            <p class="fecha">Julio 2022, Guadalajara, México</p>
-            <p> ¡Rock y EDM se fusionan en un festival eléctrico! ¡Vive la magia y la vibración única! 🤘🎶✨</p>
-        </div>
     </section>
+
     <footer class="site-footer">
         <p>Rock & EDM Festival. Todos los derechos reservados</p>
     </footer>
-      <script src="build/js/app.js"></script>
+
+
+    <script src="build/js/app.js"></script>
 </body>
 </html>
